@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B0F328F173CBDD100D342A1 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0F328E173CBDD100D342A1 /* CustomButton.m */; };
+		5BCC65CB173BED4A0059BCDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC65CA173BED4A0059BCDD /* UIKit.framework */; };
+		5BCC65CD173BED4A0059BCDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC65CC173BED4A0059BCDD /* Foundation.framework */; };
+		5BCC65CF173BED4A0059BCDD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC65CE173BED4A0059BCDD /* CoreGraphics.framework */; };
+		5BCC65D5173BED4A0059BCDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC65D3173BED4A0059BCDD /* InfoPlist.strings */; };
+		5BCC65D7173BED4A0059BCDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC65D6173BED4A0059BCDD /* main.m */; };
+		5BCC65DB173BED4A0059BCDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC65DA173BED4A0059BCDD /* AppDelegate.m */; };
+		5BCC65DD173BED4A0059BCDD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC65DC173BED4A0059BCDD /* Default.png */; };
+		5BCC65DF173BED4A0059BCDD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC65DE173BED4A0059BCDD /* Default@2x.png */; };
+		5BCC65E1173BED4A0059BCDD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC65E0173BED4A0059BCDD /* Default-568h@2x.png */; };
+		5BCC65E4173BED4A0059BCDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC65E3173BED4A0059BCDD /* ViewController.m */; };
+		5BCC65E7173BED4A0059BCDD /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC65E5173BED4A0059BCDD /* ViewController_iPhone.xib */; };
+		5BCC65EA173BED4A0059BCDD /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC65E8173BED4A0059BCDD /* ViewController_iPad.xib */; };
+		5BCC65F2173BEDC20059BCDD /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC65F1173BEDC20059BCDD /* HeaderView.m */; };
+		5BCC6625173BF0190059BCDD /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC6624173BF0190059BCDD /* CollectionViewCell.m */; };
+		5BCC6643173BF45F0059BCDD /* NSIndexPath+PSTCollectionViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC6628173BF45F0059BCDD /* NSIndexPath+PSTCollectionViewAdditions.m */; };
+		5BCC6644173BF45F0059BCDD /* PSTCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC662A173BF45F0059BCDD /* PSTCollectionView.m */; };
+		5BCC6645173BF45F0059BCDD /* PSTCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC662C173BF45F0059BCDD /* PSTCollectionViewCell.m */; };
+		5BCC6646173BF45F0059BCDD /* PSTCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC662F173BF45F0059BCDD /* PSTCollectionViewController.m */; };
+		5BCC6647173BF45F0059BCDD /* PSTCollectionViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC6631173BF45F0059BCDD /* PSTCollectionViewData.m */; };
+		5BCC6648173BF45F0059BCDD /* PSTCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC6633173BF45F0059BCDD /* PSTCollectionViewFlowLayout.m */; };
+		5BCC6649173BF45F0059BCDD /* PSTCollectionViewItemKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC6635173BF45F0059BCDD /* PSTCollectionViewItemKey.m */; };
+		5BCC664A173BF45F0059BCDD /* PSTCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC6637173BF45F0059BCDD /* PSTCollectionViewLayout.m */; };
+		5BCC664B173BF45F0059BCDD /* PSTCollectionViewUpdateItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC663A173BF45F0059BCDD /* PSTCollectionViewUpdateItem.m */; };
+		5BCC664C173BF45F0059BCDD /* PSTGridLayoutInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC663C173BF45F0059BCDD /* PSTGridLayoutInfo.m */; };
+		5BCC664D173BF45F0059BCDD /* PSTGridLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC663E173BF45F0059BCDD /* PSTGridLayoutItem.m */; };
+		5BCC664E173BF45F0059BCDD /* PSTGridLayoutRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC6640173BF45F0059BCDD /* PSTGridLayoutRow.m */; };
+		5BCC664F173BF45F0059BCDD /* PSTGridLayoutSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC6642173BF45F0059BCDD /* PSTGridLayoutSection.m */; };
+		5BCC670A173BF6830059BCDD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCC6709173BF6830059BCDD /* QuartzCore.framework */; };
+		5BCC670C173BF9700059BCDD /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC670B173BF9700059BCDD /* CollectionViewCell.xib */; };
+		5BCC670E173BFBB50059BCDD /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC670D173BFBB50059BCDD /* HeaderView.xib */; };
+		5BCC6710173C05A40059BCDD /* HeaderView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC670F173C05A40059BCDD /* HeaderView~ipad.xib */; };
+		5BCC6712173C06140059BCDD /* CollectionViewCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC6711173C06140059BCDD /* CollectionViewCell~ipad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B0F328D173CBDD100D342A1 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		5B0F328E173CBDD100D342A1 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		5BCC65C7173BED4A0059BCDD /* MyCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCC65CA173BED4A0059BCDD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5BCC65CC173BED4A0059BCDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BCC65CE173BED4A0059BCDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BCC65D2173BED4A0059BCDD /* MyCollectionView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyCollectionView-Info.plist"; sourceTree = "<group>"; };
+		5BCC65D4173BED4A0059BCDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BCC65D6173BED4A0059BCDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BCC65D8173BED4A0059BCDD /* MyCollectionView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyCollectionView-Prefix.pch"; sourceTree = "<group>"; };
+		5BCC65D9173BED4A0059BCDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BCC65DA173BED4A0059BCDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BCC65DC173BED4A0059BCDD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5BCC65DE173BED4A0059BCDD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5BCC65E0173BED4A0059BCDD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5BCC65E2173BED4A0059BCDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5BCC65E3173BED4A0059BCDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5BCC65E6173BED4A0059BCDD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		5BCC65E9173BED4A0059BCDD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		5BCC65F0173BEDC20059BCDD /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		5BCC65F1173BEDC20059BCDD /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		5BCC6623173BF0190059BCDD /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		5BCC6624173BF0190059BCDD /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		5BCC6627173BF45F0059BCDD /* NSIndexPath+PSTCollectionViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+PSTCollectionViewAdditions.h"; sourceTree = "<group>"; };
+		5BCC6628173BF45F0059BCDD /* NSIndexPath+PSTCollectionViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+PSTCollectionViewAdditions.m"; sourceTree = "<group>"; };
+		5BCC6629173BF45F0059BCDD /* PSTCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionView.h; sourceTree = "<group>"; };
+		5BCC662A173BF45F0059BCDD /* PSTCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionView.m; sourceTree = "<group>"; };
+		5BCC662B173BF45F0059BCDD /* PSTCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewCell.h; sourceTree = "<group>"; };
+		5BCC662C173BF45F0059BCDD /* PSTCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewCell.m; sourceTree = "<group>"; };
+		5BCC662D173BF45F0059BCDD /* PSTCollectionViewCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewCommon.h; sourceTree = "<group>"; };
+		5BCC662E173BF45F0059BCDD /* PSTCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewController.h; sourceTree = "<group>"; };
+		5BCC662F173BF45F0059BCDD /* PSTCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewController.m; sourceTree = "<group>"; };
+		5BCC6630173BF45F0059BCDD /* PSTCollectionViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewData.h; sourceTree = "<group>"; };
+		5BCC6631173BF45F0059BCDD /* PSTCollectionViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewData.m; sourceTree = "<group>"; };
+		5BCC6632173BF45F0059BCDD /* PSTCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		5BCC6633173BF45F0059BCDD /* PSTCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		5BCC6634173BF45F0059BCDD /* PSTCollectionViewItemKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewItemKey.h; sourceTree = "<group>"; };
+		5BCC6635173BF45F0059BCDD /* PSTCollectionViewItemKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewItemKey.m; sourceTree = "<group>"; };
+		5BCC6636173BF45F0059BCDD /* PSTCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewLayout.h; sourceTree = "<group>"; };
+		5BCC6637173BF45F0059BCDD /* PSTCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewLayout.m; sourceTree = "<group>"; };
+		5BCC6638173BF45F0059BCDD /* PSTCollectionViewLayout+Internals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PSTCollectionViewLayout+Internals.h"; sourceTree = "<group>"; };
+		5BCC6639173BF45F0059BCDD /* PSTCollectionViewUpdateItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewUpdateItem.h; sourceTree = "<group>"; };
+		5BCC663A173BF45F0059BCDD /* PSTCollectionViewUpdateItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewUpdateItem.m; sourceTree = "<group>"; };
+		5BCC663B173BF45F0059BCDD /* PSTGridLayoutInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutInfo.h; sourceTree = "<group>"; };
+		5BCC663C173BF45F0059BCDD /* PSTGridLayoutInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutInfo.m; sourceTree = "<group>"; };
+		5BCC663D173BF45F0059BCDD /* PSTGridLayoutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutItem.h; sourceTree = "<group>"; };
+		5BCC663E173BF45F0059BCDD /* PSTGridLayoutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutItem.m; sourceTree = "<group>"; };
+		5BCC663F173BF45F0059BCDD /* PSTGridLayoutRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutRow.h; sourceTree = "<group>"; };
+		5BCC6640173BF45F0059BCDD /* PSTGridLayoutRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutRow.m; sourceTree = "<group>"; };
+		5BCC6641173BF45F0059BCDD /* PSTGridLayoutSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutSection.h; sourceTree = "<group>"; };
+		5BCC6642173BF45F0059BCDD /* PSTGridLayoutSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutSection.m; sourceTree = "<group>"; };
+		5BCC6709173BF6830059BCDD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5BCC670B173BF9700059BCDD /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		5BCC670D173BFBB50059BCDD /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		5BCC670F173C05A40059BCDD /* HeaderView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HeaderView~ipad.xib"; sourceTree = "<group>"; };
+		5BCC6711173C06140059BCDD /* CollectionViewCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CollectionViewCell~ipad.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BCC65C4173BED4A0059BCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCC670A173BF6830059BCDD /* QuartzCore.framework in Frameworks */,
+				5BCC65CB173BED4A0059BCDD /* UIKit.framework in Frameworks */,
+				5BCC65CD173BED4A0059BCDD /* Foundation.framework in Frameworks */,
+				5BCC65CF173BED4A0059BCDD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BCC65BE173BED4A0059BCDD = {
+			isa = PBXGroup;
+			children = (
+				5BCC6709173BF6830059BCDD /* QuartzCore.framework */,
+				5BCC65D0173BED4A0059BCDD /* MyCollectionView */,
+				5BCC65C9173BED4A0059BCDD /* Frameworks */,
+				5BCC65C8173BED4A0059BCDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BCC65C8173BED4A0059BCDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC65C7173BED4A0059BCDD /* MyCollectionView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BCC65C9173BED4A0059BCDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC65CA173BED4A0059BCDD /* UIKit.framework */,
+				5BCC65CC173BED4A0059BCDD /* Foundation.framework */,
+				5BCC65CE173BED4A0059BCDD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BCC65D0173BED4A0059BCDD /* MyCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC661E173BEE770059BCDD /* Libs */,
+				5BCC6620173BEEA50059BCDD /* View Controllers */,
+				5BCC65D1173BED4A0059BCDD /* Supporting Files */,
+			);
+			path = MyCollectionView;
+			sourceTree = "<group>";
+		};
+		5BCC65D1173BED4A0059BCDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC65D9173BED4A0059BCDD /* AppDelegate.h */,
+				5BCC65DA173BED4A0059BCDD /* AppDelegate.m */,
+				5BCC65D2173BED4A0059BCDD /* MyCollectionView-Info.plist */,
+				5BCC65D3173BED4A0059BCDD /* InfoPlist.strings */,
+				5BCC65D6173BED4A0059BCDD /* main.m */,
+				5BCC65D8173BED4A0059BCDD /* MyCollectionView-Prefix.pch */,
+				5BCC65DC173BED4A0059BCDD /* Default.png */,
+				5BCC65DE173BED4A0059BCDD /* Default@2x.png */,
+				5BCC65E0173BED4A0059BCDD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BCC661E173BEE770059BCDD /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC6627173BF45F0059BCDD /* NSIndexPath+PSTCollectionViewAdditions.h */,
+				5BCC6628173BF45F0059BCDD /* NSIndexPath+PSTCollectionViewAdditions.m */,
+				5BCC6629173BF45F0059BCDD /* PSTCollectionView.h */,
+				5BCC662A173BF45F0059BCDD /* PSTCollectionView.m */,
+				5BCC662B173BF45F0059BCDD /* PSTCollectionViewCell.h */,
+				5BCC662C173BF45F0059BCDD /* PSTCollectionViewCell.m */,
+				5BCC662D173BF45F0059BCDD /* PSTCollectionViewCommon.h */,
+				5BCC662E173BF45F0059BCDD /* PSTCollectionViewController.h */,
+				5BCC662F173BF45F0059BCDD /* PSTCollectionViewController.m */,
+				5BCC6630173BF45F0059BCDD /* PSTCollectionViewData.h */,
+				5BCC6631173BF45F0059BCDD /* PSTCollectionViewData.m */,
+				5BCC6632173BF45F0059BCDD /* PSTCollectionViewFlowLayout.h */,
+				5BCC6633173BF45F0059BCDD /* PSTCollectionViewFlowLayout.m */,
+				5BCC6634173BF45F0059BCDD /* PSTCollectionViewItemKey.h */,
+				5BCC6635173BF45F0059BCDD /* PSTCollectionViewItemKey.m */,
+				5BCC6636173BF45F0059BCDD /* PSTCollectionViewLayout.h */,
+				5BCC6637173BF45F0059BCDD /* PSTCollectionViewLayout.m */,
+				5BCC6638173BF45F0059BCDD /* PSTCollectionViewLayout+Internals.h */,
+				5BCC6639173BF45F0059BCDD /* PSTCollectionViewUpdateItem.h */,
+				5BCC663A173BF45F0059BCDD /* PSTCollectionViewUpdateItem.m */,
+				5BCC663B173BF45F0059BCDD /* PSTGridLayoutInfo.h */,
+				5BCC663C173BF45F0059BCDD /* PSTGridLayoutInfo.m */,
+				5BCC663D173BF45F0059BCDD /* PSTGridLayoutItem.h */,
+				5BCC663E173BF45F0059BCDD /* PSTGridLayoutItem.m */,
+				5BCC663F173BF45F0059BCDD /* PSTGridLayoutRow.h */,
+				5BCC6640173BF45F0059BCDD /* PSTGridLayoutRow.m */,
+				5BCC6641173BF45F0059BCDD /* PSTGridLayoutSection.h */,
+				5BCC6642173BF45F0059BCDD /* PSTGridLayoutSection.m */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		5BCC6620173BEEA50059BCDD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC6621173BEEB30059BCDD /* ViewController */,
+				5BCC6626173BF0EC0059BCDD /* CollectionViewCell */,
+				5BCC6622173BEEC20059BCDD /* HeaderView */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5BCC6621173BEEB30059BCDD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC65E2173BED4A0059BCDD /* ViewController.h */,
+				5BCC65E3173BED4A0059BCDD /* ViewController.m */,
+				5BCC65E5173BED4A0059BCDD /* ViewController_iPhone.xib */,
+				5BCC65E8173BED4A0059BCDD /* ViewController_iPad.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		5BCC6622173BEEC20059BCDD /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC65F0173BEDC20059BCDD /* HeaderView.h */,
+				5BCC65F1173BEDC20059BCDD /* HeaderView.m */,
+				5BCC670D173BFBB50059BCDD /* HeaderView.xib */,
+				5BCC670F173C05A40059BCDD /* HeaderView~ipad.xib */,
+			);
+			name = HeaderView;
+			sourceTree = "<group>";
+		};
+		5BCC6626173BF0EC0059BCDD /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC6623173BF0190059BCDD /* CollectionViewCell.h */,
+				5BCC6624173BF0190059BCDD /* CollectionViewCell.m */,
+				5B0F328D173CBDD100D342A1 /* CustomButton.h */,
+				5B0F328E173CBDD100D342A1 /* CustomButton.m */,
+				5BCC670B173BF9700059BCDD /* CollectionViewCell.xib */,
+				5BCC6711173C06140059BCDD /* CollectionViewCell~ipad.xib */,
+			);
+			name = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BCC65C6173BED4A0059BCDD /* MyCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BCC65ED173BED4A0059BCDD /* Build configuration list for PBXNativeTarget "MyCollectionView" */;
+			buildPhases = (
+				5BCC65C3173BED4A0059BCDD /* Sources */,
+				5BCC65C4173BED4A0059BCDD /* Frameworks */,
+				5BCC65C5173BED4A0059BCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCollectionView;
+			productName = MyCollectionView;
+			productReference = 5BCC65C7173BED4A0059BCDD /* MyCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BCC65BF173BED4A0059BCDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Aleksey;
+			};
+			buildConfigurationList = 5BCC65C2173BED4A0059BCDD /* Build configuration list for PBXProject "MyCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BCC65BE173BED4A0059BCDD;
+			productRefGroup = 5BCC65C8173BED4A0059BCDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BCC65C6173BED4A0059BCDD /* MyCollectionView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BCC65C5173BED4A0059BCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCC65D5173BED4A0059BCDD /* InfoPlist.strings in Resources */,
+				5BCC65DD173BED4A0059BCDD /* Default.png in Resources */,
+				5BCC65DF173BED4A0059BCDD /* Default@2x.png in Resources */,
+				5BCC65E1173BED4A0059BCDD /* Default-568h@2x.png in Resources */,
+				5BCC65E7173BED4A0059BCDD /* ViewController_iPhone.xib in Resources */,
+				5BCC65EA173BED4A0059BCDD /* ViewController_iPad.xib in Resources */,
+				5BCC670C173BF9700059BCDD /* CollectionViewCell.xib in Resources */,
+				5BCC670E173BFBB50059BCDD /* HeaderView.xib in Resources */,
+				5BCC6710173C05A40059BCDD /* HeaderView~ipad.xib in Resources */,
+				5BCC6712173C06140059BCDD /* CollectionViewCell~ipad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BCC65C3173BED4A0059BCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCC65D7173BED4A0059BCDD /* main.m in Sources */,
+				5BCC65DB173BED4A0059BCDD /* AppDelegate.m in Sources */,
+				5BCC65E4173BED4A0059BCDD /* ViewController.m in Sources */,
+				5BCC65F2173BEDC20059BCDD /* HeaderView.m in Sources */,
+				5BCC6625173BF0190059BCDD /* CollectionViewCell.m in Sources */,
+				5BCC6643173BF45F0059BCDD /* NSIndexPath+PSTCollectionViewAdditions.m in Sources */,
+				5BCC6644173BF45F0059BCDD /* PSTCollectionView.m in Sources */,
+				5BCC6645173BF45F0059BCDD /* PSTCollectionViewCell.m in Sources */,
+				5BCC6646173BF45F0059BCDD /* PSTCollectionViewController.m in Sources */,
+				5BCC6647173BF45F0059BCDD /* PSTCollectionViewData.m in Sources */,
+				5BCC6648173BF45F0059BCDD /* PSTCollectionViewFlowLayout.m in Sources */,
+				5BCC6649173BF45F0059BCDD /* PSTCollectionViewItemKey.m in Sources */,
+				5BCC664A173BF45F0059BCDD /* PSTCollectionViewLayout.m in Sources */,
+				5BCC664B173BF45F0059BCDD /* PSTCollectionViewUpdateItem.m in Sources */,
+				5BCC664C173BF45F0059BCDD /* PSTGridLayoutInfo.m in Sources */,
+				5BCC664D173BF45F0059BCDD /* PSTGridLayoutItem.m in Sources */,
+				5BCC664E173BF45F0059BCDD /* PSTGridLayoutRow.m in Sources */,
+				5BCC664F173BF45F0059BCDD /* PSTGridLayoutSection.m in Sources */,
+				5B0F328F173CBDD100D342A1 /* CustomButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BCC65D3173BED4A0059BCDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCC65D4173BED4A0059BCDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BCC65E5173BED4A0059BCDD /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCC65E6173BED4A0059BCDD /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		5BCC65E8173BED4A0059BCDD /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BCC65E9173BED4A0059BCDD /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BCC65EB173BED4A0059BCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BCC65EC173BED4A0059BCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BCC65EE173BED4A0059BCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyCollectionView/MyCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "MyCollectionView/MyCollectionView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BCC65EF173BED4A0059BCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyCollectionView/MyCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "MyCollectionView/MyCollectionView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BCC65C2173BED4A0059BCDD /* Build configuration list for PBXProject "MyCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCC65EB173BED4A0059BCDD /* Debug */,
+				5BCC65EC173BED4A0059BCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BCC65ED173BED4A0059BCDD /* Build configuration list for PBXNativeTarget "MyCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCC65EE173BED4A0059BCDD /* Debug */,
+				5BCC65EF173BED4A0059BCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BCC65BF173BED4A0059BCDD /* Project object */;
+}
